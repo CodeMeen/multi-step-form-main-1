@@ -1,0 +1,62 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Header Styling */
+header {
+    background-color: navy;
+    padding: 30px;
+    text-align: center;
+    font-size: 30px;
+    color: white;
+}
+
+/* Flexboxes Container */
+section{
+    display: flex;
+}
+
+/* Style the navigation menu */
+
+nav{
+    flex: 1;
+    background: papayawhip;
+    padding: 20px;
+}
+/* Style the list inside the menu */
+nav ul{
+    list-style-type: none;
+    padding: 0;
+}
+
+/* Style the content */
+article {
+    background-color: aqua;
+    padding: 10px;
+
+}
+
+/* style the footer */
+footer{
+    background-color: navy;
+    padding: 20px;
+    text-align: center;
+    color: white;
+    font-size: 30px;
+
+}
+
+/* Responsive layout - makes the menu and the content
+(inside the section) sit on top of each other instead 
+of next to each other */
+
+@media (max-width: 600px) {
+    section {
+      -webkit-flex-direction: column;
+      flex-direction: column;
+    }
+  }
