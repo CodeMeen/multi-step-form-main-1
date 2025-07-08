@@ -6,7 +6,7 @@
         <link rel="stylesheet" href="card.css">
     </head>
     <body>
-        <div class="container">
+    <div class="container">
             <!-- Card Preview Section -->
              <div class="card-display">
                 <div class="card-front">
@@ -19,7 +19,7 @@
                     <p class="card-cvv">000</p>
                 </div>
              </div>
-        </div>
+       
 
         <!-- Form Section -->
          <form action="" id="card-form">
@@ -39,9 +39,16 @@
                         <input type="text" id="exp-year" placeholder="YY" maxlength="2">
                     </div>
                 </div>
+                <div>
+                    <label for="">CVC</label>
+                    <input type="text" id="cvc" placeholder="e.g. 123" maxlength="3">
+                </div>
             </div>
+
+            <button type="submit">Confirm</button>
          </form>
-         
+    </div>
+    <script src="card.js"></script>
     </body>
 
 </html>
