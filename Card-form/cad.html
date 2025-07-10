@@ -6,48 +6,59 @@
         <link rel="stylesheet" href="card.css">
     </head>
     <body>
-    <div class="container">
-            <!-- Card Preview Section -->
-             <div class="card-display">
+        <div class="container">
+            <div class="leftdiv">
                 <div class="card-front">
-                    <div class="card-logo"></div>
-                    <p class="card-number">0000 0000 0000 0000</p>
-                    <p class="card-name"> Abiola Adeeko</p>
-                    <p class="card-expiry">00/00</p>
-                </div>
-                <div class="card-back">
-                    <p class="card-cvv">000</p>
-                </div>
-             </div>
-       
-
-        <!-- Form Section -->
-         <form action="" id="card-form">
-            <label for="">Cadholder Name
-                <input type="text" id="cardholder-name" placeholder="e.g. Abiola Adeeko">
-            </label>
-
-            <label for="">Card card-number
-                <input type="text" id="card-number" placeholder="e.g. 1234 5678 9123 0000" maxlength="19">
-            </label>
-            
-            <div class="date-cvv">
-                <div>
-                    <label for="">Exp.Date ()MM/YY</label>
-                    <div class="date-inputs">
-                        <input type="text" id="exp-month" placeholder="MM" maxlength="2">
-                        <input type="text" id="exp-year" placeholder="YY" maxlength="2">
+                    <div class="card-logo">
+                        
                     </div>
+                     <p class="card-number">0000 0000 0000 0000</p>
+                     <div class="name-exp">
+                        <p class="card-name">Abiola Adeeko</p>
+                        <p class="card-expiry">00/00</p>
+                     </div>
+
                 </div>
-                <div>
-                    <label for="">CVC</label>
-                    <input type="text" id="cvc" placeholder="e.g. 123" maxlength="3">
+
+                <div class="card-back">
+
+                    <p class="card-cvc">000</p>
+
                 </div>
+                
+
             </div>
 
-            <button type="submit">Confirm</button>
-         </form>
-    </div>
+            <div class="right-div">
+                <div class="form-container">
+                    <form action="" id="card-form">
+                        <label for="">Cardholder Name
+                            <input type="text" id="cardholder-name" placeholder="e.g. Jane Appleseed">
+                        </label>
+
+                        <label for="">Card Number
+                            <input type="number" id="card-number" placeholder="e.g. 1234 5678 9123 0000" maxlength="19">
+                        </label>
+
+                        <div class="date-cvc">
+                            <div>
+                                <label for="">Exp. Date</label>
+                                <input type="number" id="exp-month" placeholder="MM" maxlength="2">
+                                <input type="number" id="exp-year" placeholder="YY" maxlength="2">
+                            </div>
+                        </div>
+                        <div>
+                            <label for="">CVC</label>
+                            <input type="number" id="cvc" placeholder="e.g. 123" maxlength="3">
+                        </div>
+                        <button type="submit">Confirm</button>
+                    </form>
+                </div>
+
+            </div>
+
+        </div>
+   
     <script src="card.js"></script>
     </body>
 
