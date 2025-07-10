@@ -132,5 +132,56 @@ body{
 } 
 
 .form-container{
-    margin: 0 auto;
+    align-items: center;
+    margin: auto;
+    position: relative; left: 10px;
+    height: 300px;
+    width: 300px;
+    position: relative; top: 150px;
 }
+
+#card-form{
+    display: flex;
+    flex-direction: column;
+    height: 80%;
+    width: 80%;
+    font-family: "Space Grotesk", sans-serif;
+    font-weight: 20000;
+
+
+
+}
+.exp-container{
+    display: flex;
+    gap: 20px;
+    font-size: xx-small;
+   
+    
+}
+
+.input-pair {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    
+    
+}
+
+.exp{
+    width: 50px;
+}
+
+
+
+.cvc{
+    display: flex;
+    flex-direction: column;
+    width: 100px;
+  
+}
+
+.label{
+    margin-bottom: 20px;
+    font-size: xx-small;
+}
+
