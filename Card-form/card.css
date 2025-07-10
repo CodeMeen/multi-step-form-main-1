@@ -169,19 +169,59 @@ body{
 
 .exp{
     width: 50px;
+    height: 35px;
+    border: 1px solid hsl(270, 3%, 87%);
+    border-radius: 7px;
 }
 
+.input-box{
+    width: 230px;
+    height: 35px;
+    border-radius: 7px;
+    border: 1px solid hsl(270, 3%, 87%);
+    color: hsl(212, 12%, 71%);
+}
 
 
 .cvc{
     display: flex;
     flex-direction: column;
     width: 100px;
+    
   
+}
+.cvc-input{
+    height: 35px;
+    border: 1px solid hsl(270, 3%, 87%);
+    border-radius: 7px;
+    color:
 }
 
 .label{
     margin-bottom: 20px;
     font-size: xx-small;
+}
+
+.label-text{
+    font-weight: 600;
+    color: hsl(278, 68%, 11%);
+}
+
+.submit-btn{
+    margin-top: 30px;
+    height: 35px;
+    width: 230px;
+    font-family: "Space Grotesk", sans-serif;
+    background-color: hsl(278, 68%, 11%);
+    color: white;
+    font-weight: 600;
+    border: none;
+    border-radius: 7px;
+    cursor: pointer;
+    
+}
+
+.submit-btn:hover{
+    background-color: hsl(278, 100%, 21%);;
 }
 
