@@ -147,6 +147,7 @@ body{
     width: 80%;
     font-family: "Space Grotesk", sans-serif;
     font-weight: 20000;
+    margin-left: -60px;
 
 
 
@@ -172,6 +173,14 @@ body{
     height: 35px;
     border: 1px solid hsl(270, 3%, 87%);
     border-radius: 7px;
+    font-family: "Space Grotesk", sans-serif;
+    padding-left: 10px;
+
+
+}
+
+.exp::placeholder{
+    color: hsl(270, 3%, 87%);
 }
 
 .input-box{
@@ -179,7 +188,12 @@ body{
     height: 35px;
     border-radius: 7px;
     border: 1px solid hsl(270, 3%, 87%);
-    color: hsl(212, 12%, 71%);
+    font-family: "Space Grotesk", sans-serif;
+    padding-left: 10px;
+}
+
+.input-box::placeholder{
+    color: hsl(270, 3%, 87%);
 }
 
 
@@ -194,7 +208,13 @@ body{
     height: 35px;
     border: 1px solid hsl(270, 3%, 87%);
     border-radius: 7px;
-    color:
+    font-family: "Space Grotesk", sans-serif;
+    padding-left: 10px;
+    
+}
+
+.cvc-input::placeholder{
+    color: hsl(270, 3%, 87%)
 }
 
 .label{
@@ -219,6 +239,10 @@ body{
     border-radius: 7px;
     cursor: pointer;
     
+}
+
+#card-form{
+    margin-left: -60px;
 }
 
 .submit-btn:hover{
